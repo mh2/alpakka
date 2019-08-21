@@ -19,7 +19,9 @@ import com.google.pubsub.v1.pubsub._
 //#publish-single
 
 import akka.NotUsed
+//#publish-single
 import com.google.protobuf.ByteString
+//#publish-single
 import org.scalatest.concurrent.ScalaFutures
 import org.scalatest.{BeforeAndAfterAll, Inside, Matchers, WordSpec}
 
